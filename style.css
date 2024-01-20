@@ -1,0 +1,134 @@
+
+#box{
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.3); 
+    margin: auto;
+    border-radius: 15px;
+    width: 1000px;
+    height: 1550px;
+    position: relative;
+    top: 85px;
+}   
+#cover{
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    height: 215px;
+    background-image: linear-gradient(to bottom, black, #0fa5f7);
+ }
+.fa-brands{
+    color:#b0aeae;
+}
+.fa-brands:hover{
+    color:rgb(30,48,80);
+}
+
+.logos{
+    position: relative; 
+    margin-left: 69%; 
+    top:70px; 
+    display:flex; 
+    gap:15px;
+}
+
+.top-layer{
+    position:relative; 
+    top:105px; 
+    margin-left:25%
+}
+
+.center{
+   text-align: center; 
+   padding-bottom: 5px;
+}
+
+article{
+    line-height: 1.5;
+}
+
+hr{
+    position:relative;
+    top: 70px; 
+    opacity: 30%;
+}
+
+button{
+    color: white; 
+    width: 100px; 
+    height: 40px; 
+    border-radius: 40px; 
+    cursor:pointer; 
+    border:none; 
+    background-color:black;
+    margin-left: 200px;
+}
+
+.address{
+    position:absolute; 
+    left: 570px; 
+    bottom: 200px;
+
+}
+
+.submission{
+    position: relative; 
+    top: 80px; 
+    left: 50px;
+}
+
+.experience-text{
+    font-family: 'Times New Roman', Times, serif; 
+    line-height: 1.5;
+}
+
+.year{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.schoolyear{
+    position: relative; 
+    left: 50px; 
+    top: 60px;
+}
+
+.experience{
+    position:absolute; 
+    left:420px; 
+    bottom:320px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.skills{
+    position: relative; 
+    top:50px; 
+    left: 50px;
+}
+
+.profile{
+    position:relative; 
+    top:50px; 
+    left:50px; 
+    line-height: 1.5;
+}
+
+#h2-exp{
+    position: relative;
+    top: 0.7rem;
+}
+
+#colorToggleButton{
+    background-color: #0fa5f7
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: rgb(8,8,8)
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #333;
+    color: #333;
+}
+
+.about{
+    position:relative;
+    left:50px; 
+    top:30px;
+}
